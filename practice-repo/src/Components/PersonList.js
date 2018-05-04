@@ -24,7 +24,6 @@ export default class PersonList extends React.Component {
 render() {
   return (
     <div>
-  
         <div>
               {this.state.doctors.map((doc, i) => (
                 <div key={doc.id}>
