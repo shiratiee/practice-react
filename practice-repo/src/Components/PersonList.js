@@ -9,7 +9,7 @@ export default class PersonList extends React.Component {
   }
 
   componentDidMount() {
-    fetch("https://api.betterdoctor.com/2016-03-01/doctors?location=37.773%2C-122.413%2C100&user_location=37.773%2C-122.413&skip=0&limit=10&user_key=6ffaf2f592ca4029cf614bb4bf313be5")
+    fetch("https://api.betterdoctor.com/2016-03-01/doctors/3d999de30565c8f57b47184370750d3c?user_key=6ffaf2f592ca4029cf614bb4bf313be5")
       .then(res => res.json())
       .then(
         (result) => { 
